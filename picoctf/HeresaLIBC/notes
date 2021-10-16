@@ -1,0 +1,3 @@
+patchelf --set-interpreter ./ld-2.27.so ./vuln
+  checksec ./vuln
+
